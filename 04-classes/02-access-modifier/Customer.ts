@@ -20,12 +20,12 @@ class Customer {
     }
 
     constructor(firstName: string, lastName: string) {
-        this._firstName = firstName;π
+        this._firstName = firstName;
         this._lastName = lastName;
     }
 }
 
-let myCustomer = new Customer("Marthin", "Dixon");
+let aa = new Customer("Marthin", "Dixon");
 
-console.log(myCustomer.firstName);
-console.log(myCustomer.lastName);
+console.log(aa.firstName);
+console.log(aa.lastName);
