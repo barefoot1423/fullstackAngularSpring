@@ -1,4 +1,4 @@
-class Customer {
+class Customers {
     firstName: string;
     lastName: string;
 
@@ -8,7 +8,7 @@ class Customer {
     }
 }
 
-let myCustomer = new Customer("Marthin", "Dixon");
+let myCustomer = new Customers("Marthin", "Dixon");
 
 console.log(myCustomer.firstName);
 console.log(myCustomer.lastName);
