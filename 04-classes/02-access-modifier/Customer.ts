@@ -20,7 +20,7 @@ class Customer {
     }
 
     constructor(firstName: string, lastName: string) {
-        this._firstName = firstName;
+        this._firstName = firstName;π
         this._lastName = lastName;
     }
 }
