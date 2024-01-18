@@ -18,4 +18,4 @@ for (const theShape of theShapes) {
     console.log(theShape.getInfo());
     console.log(theShape.calculateArea());
     console.log();
-}˚
+}
