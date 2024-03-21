@@ -4,6 +4,7 @@
       <li *ngFor="let tempProductCategory of productCategory">
         <a routerLink="/category/{{ tempProductCategory.id }}" routerLinkActive="active-link">
           {{ tempProductCategory.categoryName }}
+          {{ tempProductCategory.id }}
         </a>
       </li>
     </ul>
