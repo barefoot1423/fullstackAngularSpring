@@ -46,7 +46,7 @@ public class MyDataRestConfig implements RepositoryRestConfigurer {
 
     private void exposeIds(RepositoryRestConfiguration config) {
 
-        // expose entity idsπ
+        // expose entity ids
         // - get a list of all entity classes from the entity manager
         Set<EntityType<?>> entities = entityManager.getMetamodel().getEntities();
 
